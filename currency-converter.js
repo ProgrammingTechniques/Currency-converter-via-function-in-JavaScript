@@ -16,10 +16,10 @@ console.log(result1);
 
 // For Euro Currency to INR
 
-function convert1(convertEtoI){
+function convert1(convertEtoI) {
   let result;
   let euro = 90.70
-  for(currency in convertEtoI){
+  for (currency in convertEtoI) {
     result = euro * convertEtoI[currency];
   }
   return result;
@@ -29,10 +29,10 @@ let result2 = convert1(INR1);
 console.log(result2);
 
 // For Riyal Currency to INR
-function convert2(convertRtoI){
+function convert2(convertRtoI) {
   let result;
   let riyal = 21.97
-  for(currency in convertRtoI){
+  for (currency in convertRtoI) {
     result = riyal * convertRtoI[currency];
   }
   return result;
@@ -42,10 +42,10 @@ let result3 = convert2(INR2);
 console.log(result3);
 
 // for Kuwaiti Dinar to INR
-function convert3(convertKDtoI){
+function convert3(convertKDtoI) {
   let result;
   let kd = 268.44
-  for(currency in convertKDtoI){
+  for (currency in convertKDtoI) {
     result = kd * convertKDtoI[currency];
   }
   return result;
